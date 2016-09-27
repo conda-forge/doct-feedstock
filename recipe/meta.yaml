@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: doct
@@ -7,7 +7,7 @@ package:
 source:
   url: http://github.com/NSLS-II/doct/archive/v{{ version }}.tar.gz
   fn: doct-{{ version }}.tar.gz
-  sha256: 77e12fe268ea4591d5d90b363aa7cbc1a0e5c2d248ef8c7fa8b499fff0629c25
+  sha256: 4546ad1403492fea49eab74f1bb84149ab3eb7c705d13f157b20f0489f3da97e
 
 build:
   number: 0
@@ -18,6 +18,8 @@ requirements:
     - python
 
   run:
+    - humanize
+    - prettytable
     - python
     - six
 
