@@ -1,7 +1,7 @@
 About doct
 ==========
 
-Home: https://github.com/NSLS-II/document
+Home: https://github.com/NSLS-II/doct
 
 Package license: BSD 3-Clause
 
