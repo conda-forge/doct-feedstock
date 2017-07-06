@@ -15,18 +15,18 @@ build:
 
 requirements:
   build:
-    - python
-
-  run:
+    - humanize
+    - prettytable
     - python
     - six
+    - setuptools
+  run:
+    - humanize
+    - prettytable
+    - python
+    - six 
 
 test:
-  requires:
-    - nose
-    - six
-  commands:
-    - nosetests ../work/doct-{{ version }} -sv
   imports:
     - doct
 
@@ -38,3 +38,7 @@ about:
 extra:
   recipe-maintainers:
     - ericdill
+    - CJ-Wright
+    - tacaswell
+    - licode
+    - danielballan
