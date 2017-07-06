@@ -15,18 +15,17 @@ build:
 
 requirements:
   build:
-    - python
-
-  run:
+    - humanize
+    - prettytable
     - python
     - six
+  run:
+    - humanize
+    - prettytable
+    - python
+    - six 
 
 test:
-  requires:
-    - nose
-    - six
-  commands:
-    - nosetests ../work/doct-{{ version }} -sv
   imports:
     - doct
 
