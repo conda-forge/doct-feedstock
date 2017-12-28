@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.5" %}
 
 package:
   name: doct
@@ -7,10 +7,11 @@ package:
 source:
   url: http://github.com/NSLS-II/doct/archive/v{{ version }}.tar.gz
   fn: doct-{{ version }}.tar.gz
-  sha256: 77e12fe268ea4591d5d90b363aa7cbc1a0e5c2d248ef8c7fa8b499fff0629c25
+  sha256: f83b30e32feaf332f4c009582c63f772e9660040cdb7d6e5c3f9318811a8a5e0
 
 build:
   number: 0
+  noarch: python
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
