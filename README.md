@@ -14,9 +14,7 @@ Summary: A read-only dottable dictionary
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/doct-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/doct-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/doct-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/doct-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/doct-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/doct-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/doct-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/doct-feedstock)
 
 Current release info
 ====================
