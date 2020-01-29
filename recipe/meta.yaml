@@ -1,4 +1,4 @@
-{% set version = "1.0.5" %}
+{% set version = "1.1.0" %}
 
 package:
   name: doct
@@ -7,7 +7,7 @@ package:
 source:
   url: http://github.com/NSLS-II/doct/archive/v{{ version }}.tar.gz
   fn: doct-{{ version }}.tar.gz
-  sha256: f83b30e32feaf332f4c009582c63f772e9660040cdb7d6e5c3f9318811a8a5e0
+  sha256: 966930179cce0788d922d877c65385bd851df5dc2f0a1009579607e3eed6bd5c
 
 build:
   number: 0
@@ -34,6 +34,7 @@ test:
 about:
   home: https://github.com/NSLS-II/document
   license: BSD 3-Clause
+  license_file: LICENSE
   summary: A read-only dottable dictionary
 
 extra:
