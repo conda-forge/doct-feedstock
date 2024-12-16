@@ -10,24 +10,28 @@ source:
   sha256: 966930179cce0788d922d877c65385bd851df5dc2f0a1009579607e3eed6bd5c
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
-  build:
+  host:
     - humanize
     - prettytable
-    - python
+    - python {{ python_min }}
+    - pip
+    - setuptools
     - six
     - setuptools
   run:
     - humanize
     - prettytable
-    - python
+    - python >={{ python_min }}
     - six 
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - doct
 
