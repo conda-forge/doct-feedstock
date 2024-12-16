@@ -19,6 +19,8 @@ requirements:
     - humanize
     - prettytable
     - python {{ python_min }}
+    - pip
+    - setuptools
     - six
     - setuptools
   run:
